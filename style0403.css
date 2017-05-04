@@ -1,0 +1,213 @@
+
+
+
+input[type=text], input[type=password] {
+    
+    padding: 0; /* 2 */
+    height: 15px; /* 3 */
+    width: 200px; /* 3 */
+}
+
+h2{
+  margin-top: 85px;
+}  
+
+    
+    
+
+
+/* Set a style for all buttons */
+button {
+    
+    color: black;
+    padding: 20px 30px;
+    
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.login {
+  float: right;
+  padding-right: 350px;
+  
+}
+.signUp{
+  float: left;
+  padding-left: 350px;
+}
+
+
+
+textarea {
+    overflow: auto; 
+    vertical-align: top; 
+}
+html,
+button,
+input,
+select,
+textarea {
+    color: #000000;
+    
+}
+
+.headng{
+  margin-top: 83px;
+}
+.pre-header {
+  width: 100%;
+  height: 81px;
+  background-color: grey;
+  position: fixed;
+  z-index: 1000;
+  margin-top: -20px;
+  
+
+}
+
+
+.pre-header .searchButton {
+  margin-top: 10px;
+  float:right;
+}
+.pre-header .top-links .local {
+  float: left;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+}
+
+.pre-header .top-links {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 3px;
+  margin-right: 1px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+}
+
+.pre-header .top-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 3px;
+  margin-right: 40px;
+  margin-top: 0px;
+  letter-spacing: 2px;
+}
+
+
+.pre-header .top-links a:hover {
+  color: #ffffff;
+}
+
+.footer {
+  clear: both;
+  position: relative;
+  background-color: #A9A9A9;
+  height: 238px;
+  width: 100%;
+}
+.footer ul {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 23px;
+}
+
+  .footer ul li {
+    letter-spacing: 1px !important;
+  }
+
+
+.footer ul.help {
+  padding-top: 38px;
+  padding-left: 70px;
+}
+
+.footer ul.social {
+  padding-top: 38px;
+  padding-left: 84px;
+}
+.footer ul.social li {
+  display: inline;
+  margin-right: 10px;
+}
+.footer ul.social li.heading {
+  display: list-item;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+.footer ul.signup {
+  padding-top: 38px;
+  padding-left: 88px;
+}
+
+
+
+.footer ul li {
+  margin-bottom: 2px;
+  letter-spacing: 2px;
+}
+.footer ul li.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 13px;
+  margin-bottom: 9px;
+}
+.footer ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  font-size: 10px;
+}
+.footer ul li a:hover {
+  color: #ffffff;
+}
+.post-footer {
+  background-color:  #a9a9a9;
+  height: 50px;
+}
+.post-footer hr {
+  position: relative;
+  margin: 0px;
+  border-color: #1a1a1a;
+}
+.post-footer .copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: relative;
+  display: inline-block;
+  color: #585757;
+  margin-top: 13px;
+  letter-spacing: -0.2px;
+  margin-left: 3px;
+}
+
