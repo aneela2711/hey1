@@ -5,13 +5,19 @@
     
 
    <link rel="stylesheet" href="style0403.css"/>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+   
+
    <script type="text/javascript">
    function validate(){
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
             if ( username == "a" && password == "123"){
                 
-                    window.location = "home.html";//a
+                    window.location = "home.html";//addonhell55
                 return false;
             }
     }
@@ -21,13 +27,14 @@
 <body>
  <div class="pre-header">
         <div class="container">
-           <div class="searchButton">
-                <form action="" method="">          
-                    <input type="search" placeholder="SEARCH">               
+             <div class="searchButton">
+                    <input type="search" placeholder="SEARCH"> 
+                    <button type="button" class="buttonSmall">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button> 
+            </div>         
                     
-                </form>
-            </div>
-        <div class="top-links">
+             <div class="top-links">
                 <a href=""><img src="logo.png" height="40" width="70"/></a>
 
                  <a href="home.html" >HOME</a>
@@ -39,9 +46,9 @@
                 <div style="position:relative">
                     
                 </div>
+            </div>
         </div>
-        </div>
-    </div>
+</div>
     
 <!WRITE A PHP PAGE>
 <form action="" style="border:1px solid #000000">
@@ -129,7 +136,8 @@
 
   
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
 </body>
